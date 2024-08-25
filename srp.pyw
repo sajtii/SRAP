@@ -148,7 +148,7 @@ class Sdpra:
         self.dc_dev.bind("<Button-1>", open_dc_dev)
         
         def settings_e(event):
-            response = messagebox.askyesno("SDPRA", "To open the settings, the app needs to be restarted. Do you wish to continue?")
+            response = messagebox.askyesno("Sajti's RA Presence", "To open the settings, the app needs to be restarted. Do you wish to continue?")
             if response: 
                 settings_needed()
         self.b_settings = ttk.Label(self.master, image=self.settings_image)
