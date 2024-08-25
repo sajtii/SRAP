@@ -3,12 +3,14 @@
 A little software which lets you share your RetroAchievements activity with your friends on Discord.
 
 ### Before you even consider downloading,
-note that I have none to zero programming experience. I put this together in less than a week as a fun project/challenge, using Google, reading documentations, and asking Grok about how things work. The main inspiration was [RetroAchievements-Discord-Presence](https://github.com/XtremePrime/RetroAchievements-Discord-Presence), so huge credit to everyone working on it. The source code looks like "meh," but at least I can read it clearly. There's almost no error handling. Written and tested on Windows, but I suppose it works on every operating system.
+note that I have none to zero programming experience. I put this together in less than a week as a fun project/challenge, using Google, reading documentations, and asking Grok about how things work. The main inspiration was [RetroAchievements-Discord-Presence](https://github.com/XtremePrime/RetroAchievements-Discord-Presence), so huge credit to everyone working on it.
+
+The source code looks like "meh," but at least I can read it clearly. There's almost no error handling. Written and tested on Windows, but I suppose it works on every operating system.
 
 In the future, I might update this project, or I might not—who knows? However, I will appreciate any kind of advice, criticism, or feedback you have for me after using my program or checking the code. Maybe one day I will become a huge Python developer. Just maybe.
 
 ## Requirements
-- Python3
+- Python3 with tkinter
 - ```pip install -r requirements.txt```
   	- `configparser` https://pypi.org/project/configparser/
   	- `pypresence` https://pypi.org/project/pypresence/
