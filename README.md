@@ -1,6 +1,7 @@
 # Sajti's RA Presence
 
 A little software which lets you share your RetroAchievements activity with your friends on Discord.
+
 (Check out my other project which has the same functionality as this one, but much cooler in my opinion. [ra_cli](https://github.com/sajtii/ra_cli))
 
 ### Before you even consider downloading,
