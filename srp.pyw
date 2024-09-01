@@ -314,7 +314,10 @@ def syncing():
             else:
                 button1 = None   
             buttons = [button1, button2]
-            buttons_filtered = [d for d in buttons if d is not None]
+            if button1 == None and button2 == None:
+                buttons_filtered = None
+            else:
+                buttons_filtered = [d for d in buttons if d is not None]
             sdpra.c_game_name.configure(text=game_title, font=(t_font, 10))
             game_title_stored = game_title
             ngi = requests.get(f"https://media.retroachievements.org{ra_game_data['ImageIcon']}")
