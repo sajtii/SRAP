@@ -2,7 +2,7 @@
 
 A little software which lets you share your RetroAchievements activity with your friends on Discord.
 
-(Check out my other project which has the same functionality as this one, but much cooler in my opinion. [ra_cli](https://github.com/sajtii/ra_cli))
+(Check out my other project, which has the same functionality as this one, but much cooler in my opinion. [ra_cli](https://github.com/sajtii/ra_cli))
 
 ### Before you even consider downloading,
 note that I have none to zero programming experience. I put this together in less than a week as a fun project/challenge, using Google, reading documentations, and asking Grok about how things work. The main inspiration was [RetroAchievements-Discord-Presence](https://github.com/XtremePrime/RetroAchievements-Discord-Presence), so huge credit to everyone working on it.
